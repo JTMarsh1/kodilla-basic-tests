@@ -25,6 +25,7 @@ public class Car {
     public int getSeats() {
         return seats;
     }
+
     public void displayNumberOfSeats() {
         System.out.println("Number of seats: " + seats);
     }

@@ -6,6 +6,7 @@ public class Convertible extends Car {
     public void openDoors() {
         System.out.println("Opening 2 doors");
     }
+
     public Convertible(int wheels, int seats) {
         super(wheels, seats);
     }
