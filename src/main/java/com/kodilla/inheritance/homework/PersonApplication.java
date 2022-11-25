@@ -7,7 +7,7 @@ public class PersonApplication {
         Technician technician = new Technician();
         Programmer programmer = new Programmer();
 
-        System.out.println("\n W sklad firmy wchodza pracownik o imieniu: " +
+        System.out.println("W sklad firmy wchodza pracownik o imieniu: " +
                 " " + david.firstName() +
                 " zatrudniony na stanowisku " + david.job() +
                 " lat: " + david.age() +
