@@ -2,8 +2,8 @@ package com.kodilla.inheritance.homework;
 
 public class Application {
     public static void main(String[] args) {
-        Shape square = new Square(2, 2);
-        System.out.println("Pole kwadratu "+ " = " + square.calculateSurfaceArea());
-        System.out.println("Obwod"+ " = "  + square.calculateCircuit());
+        Square square = new Square(5);
+        System.out.println("Pole kwadratu " + square.AreaOfTheSquare() + " Obwód kwadratu" + square.perimeterOfTheSquare());
     }
 }
+

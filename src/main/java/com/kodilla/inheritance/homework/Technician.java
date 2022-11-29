@@ -6,8 +6,4 @@ public class Technician extends Job {
         super(4000, "Maintenance in the production hall");
 
     }
-
-    public String jobName() {
-        return "Technician";
-    }
 }

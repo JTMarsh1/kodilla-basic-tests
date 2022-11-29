@@ -1,24 +1,19 @@
 package com.kodilla.inheritance.homework;
 
 public class Square extends Shape {
+    private double sideA;
 
-    double sideA = 2;
-
-    double resultOfSurfaceArea = sideA * sideA;
-
-    double resultOfCircuit = 4 * sideA;
-
-    public Square(double surFaceArea, double circuit) {
-        super(surFaceArea, circuit);
+    public Square(double sideA) {
+        this.sideA = sideA;
     }
 
-    public double calculateSurfaceArea() {
-
-        return resultOfSurfaceArea;
+    @Override
+    public double AreaOfTheSquare() {
+        return sideA * sideA;
     }
 
-    public double calculateCircuit() {
-
-        return resultOfCircuit;
+    @Override
+    public double perimeterOfTheSquare() {
+        return sideA * 4;
     }
 }
