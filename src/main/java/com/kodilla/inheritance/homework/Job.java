@@ -11,10 +11,12 @@ public abstract class Job {
         this.responsibilities = responsibilities;
 
     }
-    public String responsibilities(){
+
+    public String responsibilities() {
         return responsibilities;
     }
-    public double salary(){
+
+    public double salary() {
         return salary;
     }
 }
